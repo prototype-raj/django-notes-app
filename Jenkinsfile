@@ -5,7 +5,7 @@ pipeline {
     }
    stages {
        stage("Code") {
-        steps {
+        steps { 
             git_clone("https://github.com/prototype-raj/django-notes-app.git", "dev")
         }
     }
